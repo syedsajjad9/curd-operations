@@ -1,0 +1,29 @@
+### GET ALL PRODUCTS
+GET http://localhost:7000/api/products HTTP/1.1
+
+### GET SINGLE PRODUCT
+GET http://localhost:7000/api/products/61c06a8ecb850b4f3cb35f7e HTTP/1.1
+
+### ADD ITEM
+POST http://localhost:7000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "GOOGLE Ppppp 4A (JUST BLACK, 6GB RAM, 128GB STORAGE)",
+  "price": "RS. 15,0p00",
+  "image": "gggggggggggggggggggggggg",
+  "details": "JUST BLAggggCK, 6GB RAM, 128GBggg STORAGE"
+}
+
+
+### UPDATE ITEM
+PUT http://localhost:7000/api/products/61c06a8ecb850b4f3cb35f7e HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "closeeeeeeeeeee"
+}
+
+### DELETE ITEM
+DELETE http://localhost:7000/api/products/61c06a8ecb850b4f3cb35f7e HTTP/1.1
+
